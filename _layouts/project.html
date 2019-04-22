@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div>
+<nav class="external-sites">
+  {% if page.github %}
+  <p><a href="{{ page.github }}">Repository</a></p>
+  {% endif %}
+  {% if page.crates_io %}
+  <p><a href="{{ page.crates_io }}" rel=external>
+    <img alt="Crates.io" src="{{ page.crates_io_badge }}" style="max-width: 100%;"/>
+  </a></p>
+  {% endif %}
+  {% if page.docs %}
+  <p><a href="{{ page.docs }}" rel=external>
+    <img alt="Documentation" src="{{ page.docs_badge }}" style="max-width: 100%;"/>
+  </a></p>
+  {% endif %}
+</nav>
+
+<h1 class="post-title">
+	{{ page.title }}
+</h1>
+
+<main class="post-content">
+	{{ content }}
+</main>
+</div>

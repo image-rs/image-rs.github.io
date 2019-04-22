@@ -1,0 +1,61 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+.inner-wide { 
+  position: relative;
+  max-width: 992px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.image-rs-inline-avatar {
+  display: inline;
+  margin: 0px;
+  height: 1em;
+  vertical-align: text-bottom;
+}
+
+.post-info {
+  text-align: right;
+  font-weight: bold;
+}
+
+.subtle-link {
+  color: inherit;
+}
+
+a:hover {
+  color: #0F79D0;
+  text-decoration: none;
+}
+
+.project-list {
+  display: flex;
+  max-width: 300ch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-list > article {
+  width: 45%;
+  max-width: 45%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  .project-list > article {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.external-sites {
+  float: right;
+}
+
+.external-sites>p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: unset;
+}
