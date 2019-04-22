@@ -1,0 +1,13 @@
+---
+layout: "default"
+description: "Open-source, image related Rust crates."
+---
+
+<div class="project-list">
+{% for project in site.projects %}
+  <article>
+    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+    <p>{{ project.content | markdownify }}</p>
+  </article>
+{% endfor %}
+</div>
