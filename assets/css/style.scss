@@ -49,3 +49,13 @@ a:hover {
     max-width: 100%;
   }
 }
+
+.external-sites {
+  float: right;
+}
+
+.external-sites>p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: unset;
+}
