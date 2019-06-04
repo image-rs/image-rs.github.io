@@ -10,5 +10,5 @@ docs: "https://docs.rs/tiff"
 docs_badge: "https://docs.rs/tiff/badge.svg"
 ---
 
-A decoder for the `tiff` file format. It is also integrated into the `image`
-crate to offer its benefit in a more general setting.
+A decoder and encoder for the `tiff` file format. It is also integrated into
+the `image` crate to offer its benefit in a more general setting.
