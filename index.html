@@ -8,7 +8,7 @@ description: "Open-source, image related Rust crates."
 {% for project in sorted_projects %}
   {% assign summary = site.summaries | where: "name",project.name | first %}
   <article>
-    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
     <p>{{ summary.content }}</p>
   </article>
 {% endfor %}

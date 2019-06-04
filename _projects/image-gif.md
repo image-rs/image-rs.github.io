@@ -1,12 +1,13 @@
 ---
 layout: project
-name: "tiff"
+name: "gif"
+title: "Gif"
 weight: 700
-crates_io: "https://crates.io/crates/tiff"
-crates_io_badge: "https://img.shields.io/crates/v/tiff.svg"
-github: "https://github.com/image-rs/image-tiff"
-docs: "https://docs.rs/tiff"
-docs_badge: "https://docs.rs/tiff/badge.svg"
+crates_io: "https://crates.io/crates/gif"
+crates_io_badge: "https://img.shields.io/crates/v/gif.svg"
+github: "https://github.com/image-rs/image-gif"
+docs: "https://docs.rs/gif"
+docs_badge: "https://docs.rs/gif/badge.svg"
 ---
 
 The `gif` is an image format on the web that is nearly a synonym for

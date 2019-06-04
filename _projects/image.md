@@ -1,6 +1,7 @@
 ---
 layout: project
 name: "image"
+title: "Image"
 weight: 1000
 crates_io: "https://crates.io/crates/image"
 crates_io_badge: "https://img.shields.io/crates/v/image.svg"
