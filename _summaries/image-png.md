@@ -2,4 +2,4 @@
 name: "png"
 ---
 
-Decoder and Encoder for the wide spread `png` format.
+Decoder and encoder for the widespread `png` format.
