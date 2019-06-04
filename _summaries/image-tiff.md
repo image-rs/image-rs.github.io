@@ -2,4 +2,4 @@
 name: "tiff"
 ---
 
-Decoder for the `tiff` file format.
+A decoder and encoder for the `tiff` file format.
