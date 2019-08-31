@@ -7,7 +7,7 @@ crates_io: "https://crates.io/crates/png"
 crates_io_badge: "https://img.shields.io/crates/v/png.svg"
 github: "https://github.com/image-rs/image-png"
 docs: "https://docs.rs/png"
-docs_badge: "https://docs.rs/image/png.svg"
+docs_badge: "https://docs.rs/png/badge.svg"
 ---
 
 Offers a `png` decoder and encoder. Furthermore maps some general parts of the
