@@ -22,6 +22,33 @@
   vertical-align: text-bottom;
 }
 
+#nav_banner {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#forkme {
+  display: block;
+  color: #fff;
+  padding: 10px 50px 10px 10px;
+  background: url("../images/blacktocat.png") #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+}
+
+#blog_banner {
+  display: block;
+  color: #fff;
+  padding: 10px 50px 10px 10px;
+  background: #0090ff;
+  font-weight: 700;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
 .post-info {
   text-align: right;
   font-weight: bold;
